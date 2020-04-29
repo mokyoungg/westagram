@@ -1,0 +1,87 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+
+}
+
+.login-wrapper {
+    display : flex;
+    height: 740px;
+    background-color: black;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-box {
+    display: flex;
+    width: 350px;
+    height: 606px;
+    background-color: white;
+    justify-content: center;
+}
+
+.box1 {
+    display: flex;
+    width: 348px;
+    height: 377.8px;
+    background-color: yellow;
+    margin : 19.95px auto;
+    flex-wrap: wrap;
+}
+
+.box1_logo {
+    width: 348px;
+    height: 51px;
+    background-color: yellowgreen;
+    margin: 22px 0px;
+}
+
+.box1_form {
+    width: 348px;
+    height: 260.8px;
+    background-color: red;
+    margin-top: -22px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input{
+    width: 268px;
+    height: 38px;
+    background-color: #fafafa;
+}
+
+.id {
+    margin: 24px 40px 6px;
+}
+
+.password{
+    margin: 0px 40px 6px;
+}
+
+.button {
+    width: 268px;
+    height: 29.6px;
+    background-color: gold;
+}
+
+.or {
+    width: 268px;
+    height: 14.4px;
+    background-color: wheat;
+}
+
+.facebook {
+    width: 268px;
+    height: 19.2px;
+    background-color: turquoise;
+}
+
+.forpass {
+    width: 268px;
+    height: 13.6px;
+    background-color: aquamarine;
+}
